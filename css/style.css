@@ -44,7 +44,8 @@ nav:hover {
 }
 
 .name {
-    margin-left: 15px;
+    width: 220px;
+    margin-left: 18px;
 }
 .test {
     background: brown;
