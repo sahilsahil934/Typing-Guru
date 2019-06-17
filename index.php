@@ -8,7 +8,6 @@
         <link href='https://fonts.googleapis.com/css?family=Creepster' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Rock Salt' rel='stylesheet'>
         <link rel="stylesheet" href="css/style.css" type="text/css">
-
     </head>
     <body>
 
@@ -44,7 +43,7 @@
       <h1 class="white" id="invisible"></h1>
       <p class="whitep" id="improve"></p>
       <p class="whitep" id="speed"></p>
-      <a href="#" class="btn btn-dark test">Test my speed</a>
+      <a href="#keyboard" class="btn btn-dark test" data-toggle="modal">Test my speed</a>
     </div>
 
     <div class="modal" id="signup" data-backdrop="static" tabindex="-1">
@@ -104,6 +103,11 @@
                 </form>
             </div>
         </div>
+    </div>
+    <div class="container keyboard">
+        <?php
+            include('keyboard.php');
+        ?>
     </div>
 
     <div class="footer bg-dark">

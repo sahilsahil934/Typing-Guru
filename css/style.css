@@ -96,3 +96,134 @@ nav:hover {
     opacity: 2;
     background-color: skyblue;
 }
+
+.keyboard {
+    color: black;
+    width: 1000px;
+    
+}
+
+.col {
+    background: skyblue;
+    margin: 5px;
+    font-size: 24px;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    
+}
+
+.keyboard-inner {
+    height: 400px;
+    width: 900px;
+}
+
+.enter {
+    background: skyblue;
+    margin: 5px;
+    font-size: 24px;
+    height: 36px;
+    width: 80px;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+.tab {
+    background: skyblue;
+    margin: 5px;
+    font-size: 24px;
+    height: 36px;
+    width: 80px;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+.caps {
+    background: skyblue;
+    margin: 5px;
+    font-size: 24px;
+    height: 36px;
+    width: 90px;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+.lshift {
+    background: skyblue;
+    margin: 5px;
+    font-size: 24px;
+    height: 36px;
+    width: 90px;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+.rshift {
+    background: skyblue;
+    margin: 5px;
+    font-size: 24px;
+    height: 36px;
+    width: 90px;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+.backspace {
+    background: skyblue;
+    margin: 5px;
+    font-size: 24px;
+    height: 36px;
+    width: 120px;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+.tilde {
+    background: skyblue;
+    margin: 5px;
+    font-size: 24px;
+    height: 36px;
+    width: 34px;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+.top {
+    line-height: 20px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+sub {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.space {
+    background: skyblue;
+    margin: 5px;
+    font-size: 24px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    width: 400px;
+}
