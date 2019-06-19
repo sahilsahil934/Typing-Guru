@@ -100,7 +100,9 @@ nav:hover {
 .keyboard {
     color: black;
     width: 1000px;
-    
+    height: 500px;
+    margin-top: 200px;
+    display: none;      
 }
 
 .col {
@@ -226,4 +228,14 @@ sub {
     border: 1px solid yellow;
     border-radius: 10px;
     width: 400px;
+}
+
+.paragraph  {
+    height: 150px;
+    width: auto;
+    opacity: 0.8;
+    background: skyblue;
+    font-size: 40px;
+    border: 2px solid yellow;
+    
 }

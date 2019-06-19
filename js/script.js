@@ -36,4 +36,20 @@ function improve() {
   }
 }
 
+document.getElementById('myspeed').onclick = function() {
 
+  hide('mainpage');
+  show('practice');
+  
+  
+}
+
+function show(Id) {
+
+  document.getElementById(Id).style.display = "block";
+} 
+
+function hide(Id) {
+
+  document.getElementById(Id).style.display = "none";
+} 

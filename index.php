@@ -12,7 +12,7 @@
     <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-default fixed-top">
-        <a class="navbar-brand" href="#">Typing Learner</a>
+        <a class="navbar-brand" href="/typinglearner">Typing Learner</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,7 +43,7 @@
       <h1 class="white" id="invisible"></h1>
       <p class="whitep" id="improve"></p>
       <p class="whitep" id="speed"></p>
-      <a href="#keyboard" class="btn btn-dark test" data-toggle="modal">Test my speed</a>
+      <a href="#keyboard" id="myspeed" class="btn btn-dark test" data-toggle="modal">Test my speed</a>
     </div>
 
     <div class="modal" id="signup" data-backdrop="static" tabindex="-1">
@@ -104,9 +104,9 @@
             </div>
         </div>
     </div>
-    <div class="container keyboard">
+    <div class="container keyboard" id="practice">
         <?php
-            include('keyboard.php');
+            include('type.php');
         ?>
     </div>
 
