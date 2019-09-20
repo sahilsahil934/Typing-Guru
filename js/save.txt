@@ -1,0 +1,51 @@
+
+// signup form validation
+let form = document.getElementById('signupform');
+
+form.onsubmit = function() {
+  
+  if (form.fname.value == "") {
+    alert('First name is Missing');
+    return false;
+  }
+  else if (form.lname.value == "") {
+    alert('Last name is Missing');
+    return false;
+  }
+  else if (form.email.value == "") {
+    alert('Email is Missing');
+    return false;
+  }
+  else if (form.password.value == "") {
+    alert('Password is Missing');
+    return false;
+  }
+  else if (form.password.value != form.confirmation.value) {
+    alert('Password doesn\'t Match');
+    return false;
+  }
+  else if (form.age.value == "") {
+    alert('Age is Missing');
+    return false;
+  }
+  else if (form.country.value == "") {
+    alert('Country is Missing');
+    return false;
+  }
+}
+
+// login form validation
+
+let loginForm = document.getElementById('loginform');
+
+loginForm.onsubmit = function() {
+
+  if (loginForm.email.value == "") {
+    alert('E-mail is Missing');
+    return false;
+  }
+  else if (loginForm.password.value == ""){
+    alert('Password is Missing');
+    return false;
+  }
+}

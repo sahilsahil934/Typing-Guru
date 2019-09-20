@@ -15,6 +15,11 @@ body {
     
 }
 
+.main {
+
+    margin: 0;
+    padding: 0;
+}
 nav:hover {
     background-color: black;
     opacity: 0.7;
@@ -28,11 +33,18 @@ nav:hover {
     margin-right: 5px;  ;
 }
 
+.form-control {
+
+    border-radius: 10px;
+    border-color: grey;
+    font-size: 16px;
+}
+
 .white {
     color:white;
     font-family: rock salt;
-    font-size: 70px;
-    margin:30px;
+    font-size: 48px;
+    margin-bottom:30px;
 }
 
 .whitep {
@@ -43,10 +55,7 @@ nav:hover {
     
 }
 
-.name {
-    width: 220px;
-    margin-left: 18px;
-}
+
 .test {
     background: brown;
     font-family: creepster;
@@ -60,41 +69,13 @@ nav:hover {
     text-align: center;
     width: 100%;
     height: 35px;
-}
-
-.close {
-    right: 0;
-    color: white;
-}
-
-.modal-title {
     left: 0;
 }
 
-.modal-content {
-    background-color: transparent;   
-    border-radius: 20px; 
-    margin-top: 100px;
-    opacity: 50;
-    color: white;
-    /* border: 2px solid skyblue; */
-}
+.forgot {
 
-.form-control {
-    border-radius: 14px;
-    border: 2px solid skyblue;
-    color: blue;   
-        
-}
-
-.form-control::placeholder {
-    color: black;
-}
-
-.form-control:focus {
-    color: black;
-    opacity: 2;
-    background-color: skyblue;
+    opacity: 0.9;
+    border-radius: 5px;
 }
 
 .keyboard {
@@ -237,5 +218,6 @@ sub {
     background: skyblue;
     font-size: 40px;
     border: 2px solid yellow;
+
     
 }

@@ -1,0 +1,5 @@
+user - id, fname, lname, email, password, age, country;
+records - user_id, best_id, worst_id, average;
+
+paragraphs - id, title, paragraph;
+allrecords - userid, record_id, paragraph_id, date, time, speed, total_words, correct_words, wrong_words, accuracy;
