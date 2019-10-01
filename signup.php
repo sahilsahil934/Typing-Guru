@@ -80,11 +80,17 @@
             }
 
             else {
-                $sql = "INSERT INTO users (fname, lname, email, user_password, age, country) VALUES('$fname', '$lname', '$email', '$password', '$age', '$country')";
+                
+                $sql = "INSERT INTO `users` (fname, lname, email, user_password, age, country) VALUES('$fname', '$lname', '$email', '$password', '$age', '$country')";
 
-                mysqli_query($conn, $sql);
+                if(mysqli_query($conn, $sql)) {
                 $_SESSION['user_id'] = mysqli_insert_id($conn);
                 header('location:index.php');
+                }
+                else{
+                    $message ="<p style='color:white;'>Sorry! Something went wrong. Please try again.</p>";
+  
+                }
             }
         }
 

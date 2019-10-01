@@ -45,30 +45,32 @@
 
     ?>
 
-    <div class="container jumbotron list">
-        <h2>Select One</h2>
-        <ul>
-            <?php
-
-                $sql = "SELECT * from paragraph";
-                $result = mysqli_query($conn, $sql);
-                if ($row = mysqli_num_rows($result) > 0) {
-
-                    while ($row = mysqli_fetch_array($result)) {
-
-                        ?><li><?php $row['title'] ?> </li>
-
-                    <?php
-                    }
-                }
-                
-            ?>
-        </ul>
-    </div>
-
     <div class="container jumbotron paragraph-field">
         <div class="paragraph">
-            <p> there is vast number of living organism in the biosphere and they have great diversity in shape size and form so it not </p>
+        <?php
+
+            $sql = "SELECT * from paragraph";
+            $result = mysqli_query($conn, $sql);
+            $sql = "SELECT COUNT(*) from paragraph";
+            $max_count = mysqli_query($conn, $sql);
+            $max_count_value = mysqli_fetch_array($max_count);
+            
+            $random = rand(1, $max_count_value[0]);
+            $count = 0;
+            if (mysqli_num_rows($result) > 0) {
+
+                while ($row = mysqli_fetch_array($result)) {
+                    
+                    $count++;
+                    if ($count == $random) {
+                    ?><p><?php echo $row['paragraph'] ?> </p>
+
+                <?php
+                    }
+                }
+            }
+
+        ?>
         </div>
         <form class="form-group">
             <input class="form-control typing-text" type="text" />
