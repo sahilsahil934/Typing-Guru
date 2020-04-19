@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Typing Learner</title>
+        <title>Typing Guru</title>
         <?php
             include('metadata.php');
         ?>
